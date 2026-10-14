@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nexus — Vida Artificial, Criptografía y Arte Generativo</title>
+    <style>
+        :root {
+            --bg-color: #0a0a19;
+            --card-bg: #12122b;
+            --accent-cyan: #00f0ff;
+            --accent-green: #00ff66;
+            --text-main: #e0e0e0;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #101026 0%, #1e1e4a 100%);
+            border-bottom: 2px solid var(--accent-cyan);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #fff;
+            text-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: var(--accent-cyan);
+            margin-top: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(0, 240, 255, 0.2);
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        h2 {
+            color: var(--accent-green);
+            border-bottom: 1px solid rgba(0, 255, 102, 0.3);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        p, li {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        strong {
+            color: #fff;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #050510;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PROJECT NEXUS</h1>
+        <p>Ecosistemas Autónomos, Vida Artificial y Arte Generativo Procedural</p>
+<!-- Botón de acceso al Dashboard Interactivo -->
+<div style="text-align: center; margin: 2rem 0;">
+    <a href="http://127.0.0.1:5000/" target="_blank" style="
+        background: linear-gradient(135deg, #00f0ff 0%, #00ff66 100%);
+        color: #0a0a19;
+        padding: 0.8rem 2rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+        display: inline-block;
+        transition: transform 0.2s;
+    ">🚀 Entrar al Dashboard en Vivo (Multiverso Labs)</a>
+</div>
+
+    </header>
+
+    <div class="container">
+
+        <!-- Sección 1: Visión General -->
+        <section>
+            <h2>1. Resumen Ejecutivo y Tesis</h2>
+            <p><strong>Project Nexus</strong> es un sistema híbrido de vanguardia que unifica la <strong>Vida Artificial (ALife)</strong>[span_0](start_span)[span_0](end_span), la ciberseguridad adaptativa basada en enjambres y el arte generativo. El proyecto investiga cómo traducir dinámicas algorítmicas y flujos de procesos concurrentes en representaciones visuales estéticas y auditables en tiempo real, conocidas como <em>fósiles estelares</em>.</p>
+        </section>
+
+        <!-- Sección 2: Arquitectura Técnica -->
+        <section>
+            <h2>2. Arquitectura e Innovación Técnica</h2>
+            <div class="grid-2">
+                <div>
+                    <p><strong>Backend Concurrente:</strong></p>
+                    <ul>
+                        <li>Ejecución de hilos en segundo plano (<em>Daemon Threads</em>) para simular poblaciones autónomas[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span).</li>
+                        <li>Control estricto de exclusión mutua mediante <code>Locks</code> para garantizar atomicidad e integridad en inventarios compartidos[span_3](start_span)[span_3](end_span).</li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>Criptografía y Renderizado:</strong></p>
+                    <ul>
+                        <li>Mapeo genético al espacio de color HSV para herencia cromática coherente[span_4](start_span)[span_4](end_span).</li>
+                        <li>Motor gráfico basado en <em>Pillow</em> con soporte de capas RGBA, transparencia y efectos de brillo (<em>GaussianBlur</em>)[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 3: Conclusiones de la Investigación -->
+        <section>
+            <h2>3. Conclusiones y Hallazgos Académicos</h2>
+            <ul>
+                <li><strong>Viabilidad en Entornos Móviles:</strong> Se demostró con éxito que es posible ejecutar simulaciones evolutivas y renderizado procedural complejo en hardware con recursos limitados (entornos Android / Pydroid 3)[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span)[span_10](start_span)[span_10](end_span).</li>
+                <li><strong>Auditoría Visual:</strong> El uso de fósiles estelares valida que el arte generativo es una herramienta funcional para representar y auditar el comportamiento de linajes criptográficos abstractos.</li>
+                <li><strong>Estabilidad Concurrente:</strong> La sincronización por exclusión mutua previene eficazmente condiciones de carrera en enjambres de tokens activos[span_11](start_span)[span_11](end_span).</li>
+            </ul>
+        </section>
+
+        <!-- Sección 4: Mercado y Aplicaciones -->
+        <section>
+            <h2>4. Aplicaciones Comerciales y Educativas</h2>
+            <ul>
+                <li><strong>Coleccionables Digitales y Arte:</strong> Generación automática de piezas gráficas únicas impulsadas por evolución sintética.</li>
+                <li><strong>Gamificación de Seguridad:</strong> Modelos de control de acceso y cajas fuertes digitales con credenciales mutantes.</li>
+                <li><strong>Entornos Educativos:</strong> Plataforma didáctica ideal para la enseñanza de sistemas complejos, inteligencia computacional y concurrencia.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Project Nexus &copy; 2026 — Desarrollado bajo los estándares de MultiversoLabs[span_12](start_span)[span_12](end_span).</p>
+    </footer>
+
+</body>
+</html>
